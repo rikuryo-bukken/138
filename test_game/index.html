@@ -3,13 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | WEBGL_TEST</title>
+    <title>Unity WebGL Player | racing game (bukken)</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    <link rel="stylesheet" href="/styleForGame.css">
   </head>
   <body>
-
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -22,18 +20,9 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">WEBGL_TEST</div>
+        <div id="unity-build-title">racing game (bukken)</div>
       </div>
     </div>
-    <!--ここから編集可能-->
-    <div id="pager">
-      <ul>
-        <li><a href="/">トップページ</a></li>
-        <li><a href="/works/">期ごと一覧</a></li>
-        <li><a href="/138/">138期</a></li>
-      </ul>
-    </div>
-    <!--ここまで編集可能-->
     <script>
 
       var container = document.querySelector("#unity-container");
@@ -68,15 +57,15 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/docs.loader.js";
+      var loaderUrl = buildUrl + "/BrotliBuild.loader.js";
       var config = {
-        dataUrl: buildUrl + "/docs.data",
-        frameworkUrl: buildUrl + "/docs.framework.js",
-        codeUrl: buildUrl + "/docs.wasm",
+        dataUrl: buildUrl + "/BrotliBuild.data.unityweb",
+        frameworkUrl: buildUrl + "/BrotliBuild.framework.js.unityweb",
+        codeUrl: buildUrl + "/BrotliBuild.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "WEBGL_TEST",
-        productVersion: "1.0",
+        productName: "racing game (bukken)",
+        productVersion: "0.1",
         showBanner: unityShowBanner,
       };
 
