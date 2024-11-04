@@ -14,13 +14,8 @@ h2{
 p {
     margin-bottom: 0;
 }
-.smallSpace {
-    height:auto;
-}
 .mutter {
     color: #6b6b6b;
-    margin-top: 0;
-    margin-bottom: 0;
 }
 #imgBox {
     justify-content: space-around;

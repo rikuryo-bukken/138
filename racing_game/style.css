@@ -7,6 +7,11 @@ body {
     flex: 8;
 }
 
+#fullscreen_game {
+    width: 100%;
+    padding: 6px;
+}
+
 #game iframe {
     box-sizing: border-box;
     width: 100%;
@@ -47,4 +52,4 @@ html {
         display: flex;
         flex-direction: column;
     }
-  }
+}
