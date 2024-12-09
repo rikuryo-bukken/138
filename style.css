@@ -19,6 +19,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+
+    overflow-x: hidden;
 }
 #main_contents {
     flex: 7;
@@ -40,7 +42,7 @@ body {
 }
 
 #contents li {
-    height: 15em;
+    position: relative;
 }
 
 #contents li details .toggleButton:hover {
@@ -59,7 +61,7 @@ body {
 
 #contents li details {
     background-color: #517C8A;
-    margin-bottom: 9em;
+    margin-bottom: 3em;
     padding: 0.4em;
     border-width: 4px;
     width: 60%;
@@ -86,7 +88,6 @@ body {
     background-color: rgb(141, 235, 238);
 
     height: 12em;
-    margin-bottom: 0em;
     padding: 0.4em;
     border-width: 4px;
     width: 60%;
@@ -161,13 +162,10 @@ body {
 
 
 .moving_img {
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    left: 60%;
+    left: 65%;
     top: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
 }
 
 .moving_img img {
