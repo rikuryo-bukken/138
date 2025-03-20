@@ -46,6 +46,8 @@ body {
     width: 60%;
     height: 3em;
     border-color: black;
+    transition: 0.2s 0s height;
+    transition-timing-function: ease-in;
 }
 
 #contents li details summary {
@@ -66,12 +68,12 @@ body {
 #contents li details[open] {
     background-color: rgb(141, 235, 238);
 
-    height: 12em;
+    height: auto;
     padding: 0.4em;
     border-width: 4px;
     width: 60%;
     border-color: black;
-    transition: 0.2s 0s all;
+    transition: 0.2s 0s height;
     transition-timing-function: ease-in;
 }
 
@@ -97,7 +99,6 @@ body {
 
 #contents li details div {
     background-color: white;
-    height: 8em;
     display: flex;
     align-items: stretch;
 }
