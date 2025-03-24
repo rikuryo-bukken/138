@@ -42,6 +42,9 @@ body {
     padding: 0.1px 0;
     padding-left: 0;
 }
+#pager ul:last-child {
+    margin-bottom: 0;
+}
 
 #pager ul li {
     margin: 7px 0;
@@ -79,6 +82,10 @@ body {
     }
     #pager {
         height: auto;
+        padding: 1.2em 2em;
+    }
+    #pager ul {
+        margin-bottom: 15px;
     }
 
     #contents {
