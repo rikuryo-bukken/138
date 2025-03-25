@@ -4,52 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>138期 | 北野高校物理研究部</title>
-    <meta name="description" content="北野高校物理研究部138期公式サイトです。当サイトでは、物理研究部138期の活動内容や制作物を公開しています。">
     <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="北野高校物理研究部138期公式サイトです。当サイトでは、物理研究部138期の活動内容や制作物を公開しています。">
     <link rel="stylesheet" href="./default.css">
+    <link rel="stylesheet" href="./format.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div id="main_contents">
-        <div id="contents">
+        <main id="contents">
             <h1>138期制作物一覧</h1>
             <ul>
                 <li id="c0">
                     <details>
-                        <summary class="toggleButton" id="c0_button">レーシングゲーム</summary>
-                        <div id="c0_intro">
+                        <summary class="toggleButton">レーシングゲーム</summary>
+                        <div>
                             <section>
-                                <p>2024年度六稜祭にて展示。<br>Blenderで車体やコース・背景など3Dオブジェクトをモデリングし、Unityを用いて制作。<br>PC推奨</p>
+                                <p>2024年度六稜祭にて展示。</p>
+                                <p>Blenderで車体やコース・背景など3Dオブジェクトをモデリングし、Unityを用いて制作。</p>
+                                <p>PC推奨</p>
                             </section>
                             <a class="to_nextPage" href="./racing_game/">
                                 <p>Go to Page</p>
                             </a>
                         </div>
                     </details>
-                    <div class="moving_img">
-                        <img id="c0_pic" name="racing" src="./racing_game.webp" alt="レーシングゲーム画像">
+                    <div class="moving_img" aria-hidden="true">
+                        <img name="racing" src="./racing_game.webp" alt="レーシングゲーム画像">
                     </div>
                 </li>
-                <li id="c1">
+                <li>
                     <details>
-                        <summary class="toggleButton" id="c1_button">ストラテジーゲーム</summary>
-                        <div id="c1_intro">
+                        <summary class="toggleButton">ストラテジーゲーム</summary>
+                        <div>
                             <section>
-                                <p>2024年度六稜祭にて展示。<br>制作を通して、プログラミング未経験の部員がC#やUnityの練習を行った。<br>PC推奨</p>
+                                <p>2024年度六稜祭にて展示。</p>
+                                <p>制作を通して、プログラミング未経験の部員がC#やUnityの練習を行った。</p>
+                                <p>PC・モバイル対応、横画面のみ</p>
                             </section>
                             <a class="to_nextPage" href="./strategy_game/">
                                 <p>Go to Page</p>
                             </a>
                         </div>
                     </details>
-                    <div class="moving_img">
-                        <img id="c1_pic" name="strategy" src="./strategy.webp" alt="ストラテジーゲーム画像">
+                    <div class="moving_img" aria-hidden="true">
+                        <img name="strategy" src="./strategy.webp" alt="ストラテジーゲーム画像">
                     </div>
                 </li>
-                <li id="c2">
+                <li>
                     <details>
-                        <summary class="toggleButton" id="c2_button">その他</summary>
-                        <div id="c2_intro">
+                        <summary class="toggleButton">その他</summary>
+                        <div>
                             <section>
                                 <p>六稜祭宣伝用のポスター、<br>デスクトップPC(メンテナンス)、<br>公式サイト、公式Xなど</p>
                             </section>
@@ -58,22 +63,23 @@
                             </a>
                         </div>
                     </details>
-                    <div class="moving_img">
-                        <img id="c2_pic" name="others" src="./others/desktop.webp" alt="その他画像">
+                    <div class="moving_img" aria-hidden="true">
+                        <img name="others" src="./others/desktop.webp" alt="その他画像">
                     </div>
                 </li>
             </ul>
-        </div>
-        <p class="weak">ver. 0.0.0</p>
+        </main>
     </div>
     <div id="sub_contents">
-        <div id="pager">
+        <nav id="pager">
             <ul>
                 <li><a href="/">トップページ</a></li>
                 <li><a href="/works/">期ごと一覧</a></li>
             </ul>
-        </div>
+            <ul>
+                <li><a href="/sitemap/">サイトマップ</a></li>
+            </ul>
+        </nav>
     </div>
-    <script src="./script.js"></script>
 </body>
 </html>
