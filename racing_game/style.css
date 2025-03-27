@@ -1,6 +1,7 @@
 body {
-    font-family: 'Noto Sans JP', 'BIZ UDGothic', sans-serif;
+    font-family: 'Noto Sans JP', 'BIZ UDGothic', 'メイリオ', 'Meiryo', 'Meiryo UI', sans-serif;
     color: #333333;
+    line-height: 1.5;
 }
 
 #game {
@@ -25,6 +26,7 @@ body {
     width: 100%;
     height: 100vh;
     padding: 10% 2em;
+    overflow: auto;
 }
 
 #pager ul {
@@ -35,6 +37,9 @@ body {
     list-style: none;
     padding: 0.1px 0;
     padding-left: 0;
+}
+#pager ul:last-child {
+    margin-bottom: 0;
 }
 
 #pager ul li {
@@ -70,5 +75,13 @@ html {
     body {
         display: flex;
         flex-direction: column;
+    }
+    #pager {
+        flex: initial;
+        height: auto;
+        padding: 1.2em 2em;
+    }
+    #pager ul {
+        margin-bottom: 15px;
     }
 }
