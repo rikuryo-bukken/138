@@ -175,6 +175,12 @@ details[open] ~ .moving_img img {
 }
 
 
+@media screen and (max-width: 959px) {
+    #sub_contents {
+        flex: 1;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     #contents li details div {
